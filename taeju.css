@@ -52,11 +52,22 @@ body {
     color: white;
     text-decoration: none;
     box-sizing: border-box;
-    width: 15%;
+    width: 12%;
 }
 
 .nav-item:hover {
     background-color: darkgreen;
+}
+
+.nav-item-active {
+    color: black;
+    text-decoration: none;
+    padding: 5px 20px;
+    margin: 10px;
+    font-size: 17px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 12%;
 }
 
 .content {
@@ -85,4 +96,27 @@ g {
     margin: 5px 20px;
 }
 
+k {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    color: lightgray;
+    font-size: 17px;
+    text-align: right;
+    padding: 5px 20px;
+    display: inline-block;
+    cursor: pointer; 
+    margin: 10px;        
+    width: 12%;       
+}
 
+.link {
+    padding: 20px;
+    margin: 10px;
+    font-size: 17px;
+    text-align: center;
+    color: gray;
+    text-decoration: none;
+    box-sizing: border-box;
+    width: 12%;
+}

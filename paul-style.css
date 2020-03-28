@@ -33,6 +33,11 @@ body {
     height: auto;
 }
 
+.static-img {
+    width: 400px;
+    height: auto;
+}
+
 h1 {
     text-align: center;
 }
@@ -56,6 +61,15 @@ h1 {
 .paul:hover {
     width: 600px;
     height: auto;
+}
+
+.link {
+    padding: 10px 0;
+    margin: 10px 0;
+    font-size: 17px;
+    color: gray;
+    text-decoration: none;
+    box-sizing: border-box;
 }
 
 .content {
