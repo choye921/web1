@@ -1,0 +1,88 @@
+html {
+    font-family: 'Song Myung', serif;
+}
+
+body {
+    padding: 0;
+    margin-left: 2%;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 60px 0;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    margin-left: 40%;
+    margin-right: 5px;
+}
+
+.title {
+    left: 50%;
+    margin: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 40px;
+    color: green;
+}
+
+.taeju {
+    display: block;
+    resize: both;
+    max-height: 300px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding: 10px 5%;
+    border-bottom: 2px solid lightgray;
+    background-color: green;
+}
+
+.nav-item {
+    padding: 5px 20px;
+    margin: 10px;
+    font-size: 17px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    box-sizing: border-box;
+    width: 15%;
+}
+
+.nav-item:hover {
+    background-color: darkgreen;
+}
+
+.content {
+    padding: 0px 20px;
+}
+
+.goods-img {
+    resize: both;
+    height: 300px;
+    width: 300px;
+    margin: 5px auto;
+}
+
+.goods {
+    float: left;
+    width: 32%;
+    padding: 20px;
+    margin: 20px 0;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+}
+
+g {
+    font-size: 40px;
+    margin: 5px 20px;
+}
+
+
