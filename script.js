@@ -47,3 +47,10 @@ const para = document.querySelector('k');
         }
 
 
+// buy
+const purc = document.querySelector('.buy');
+    purc.addEventListener('click', updatePurc);
+    function updatePurc() {
+        let qtt = prompt('구입수량: ');
+        purc.textContent = qtt + '개 구입완료';
+
