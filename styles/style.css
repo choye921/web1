@@ -1,0 +1,111 @@
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#menu {
+    display: grid;
+    grid-template-columns: 4fr 6fr 1fr 1fr;
+    align-items: center;   
+    padding: 20px 0;
+    border-bottom: 2px solid lightgray;
+}
+.logo h1 {
+    padding: 10px 30px;
+    width: 180px;
+    text-align: center;
+    font-size: 35px;
+}
+.nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.nav-t {
+    font-size: 15px;
+    text-align: center;
+}
+.now {
+    color: green;
+}
+.sns img, #more img{
+    width: 40px;
+    height: 40px;
+    padding: 7%;
+}
+.sns, #more{
+    text-align: center;
+}
+
+
+.content {
+    display: grid;
+    text-align: center;
+    padding: 3%;
+}
+
+.content img {
+    width: 100%;
+    padding: 20px;
+}
+
+#first {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+#second {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.thing {
+    position: relative;
+    text-align: left;
+    color: white;
+}
+
+.thing p{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    font-size: 20px;
+}
+
+#main {
+    position: relative;
+    text-align: left;
+    color: white;
+    height:600px;
+}
+
+#main p{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+
+@media(max-width: 1100px)
+{
+    .sns, #more {
+    display: none;
+    }
+
+    #menu {
+        grid-template-columns: 1fr 3fr;
+    }
+
+    .nav {
+        padding: 0 20px;
+        grid-template-columns: 7fr 10fr 6fr 9fr 6fr 7fr;
+    }
+}
